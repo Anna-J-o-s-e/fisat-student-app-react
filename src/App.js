@@ -4,6 +4,8 @@ import AddStudent from './components/AddStudent';
 import SearchStudent from './components/SearchStudent';
 import ViewAll from './components/ViewAll';
 import HomePage from './components/HomePage';
+import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
   <Route path='/add' element={<AddStudent/>}/>
   <Route path='/search' element={<SearchStudent/>}/>
   <Route path='/view' element={<ViewAll/>}/>
-  
+  <Route path='/about' element={<AboutUs/>}/>
+  <Route path='/contact' element={<ContactUs/>}/>
   </Routes></BrowserRouter>
 
 
