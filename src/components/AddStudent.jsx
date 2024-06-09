@@ -5,8 +5,8 @@ const AddStudent = () => {
   return (
     <div>
 <NavBar/>
-
-dfghj
+<br />
+<center><h1>STUDENT ENTRY</h1></center>
     </div>
   )
 }

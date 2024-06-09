@@ -8,10 +8,10 @@ const HomePage = () => {
             <NavBar />
             <br />
             <br />
-            <center>
+            <center><font color="#000080">
                 <h1>FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY (FISAT)®</h1><br />
                 <h5>HORMIS NAGAR, MOOKKANNOOR P O, ANGAMALY, ERNAKULAM DISTRICT. KERALA, INDIA, PIN - 683 577. PH: 0484 - 2725272.</h5>
-
+            </font>
             </center>
             <br />
             <div className="container">
@@ -46,7 +46,7 @@ const HomePage = () => {
                         </div>
 
 
-                    </div>
+                        </div>
                 </div>
             </div>
 
